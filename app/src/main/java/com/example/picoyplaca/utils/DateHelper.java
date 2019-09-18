@@ -81,7 +81,7 @@ public class DateHelper {
         try {
             DateFormat dateFormat = new SimpleDateFormat ("hh:mm:ss");
 
-            String hora1 = "12:00:00";
+            String hora1 = "16:00:00";
             String hora2 = "19:30:00";
 
             Date date1, date2, dateNueva;
