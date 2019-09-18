@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Pico y Placa</string>
+    <!-- Home -->
+    <string name="nav_home">Inicio</string>
+    <string name="nav_historic">Historico</string>
+    <string name="input_placa">Ingresa No. de placa</string>
+    <string name="consult">Consultar</string>
+    <string name="clear">Limpiar</string>
+    <string name="no_placa">Número de placa:</string>
+    <string name="fecha_consulta">Fecha de consulta:</string>
+    <string name="circula">Circula</string>
+    <string name="no_circula">No circula</string>
+    <string name="no_input">El campo placa debe estar lleno</string>
+</resources>
