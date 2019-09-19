@@ -11,4 +11,6 @@
     <string name="circula">Circula</string>
     <string name="no_circula">No circula</string>
     <string name="no_input">El campo placa debe estar lleno</string>
+    <string name="buqueda_placaa">Buqueda por placa</string>
+    <string name="dias_no_circula">Días que no circula:</string>
 </resources>

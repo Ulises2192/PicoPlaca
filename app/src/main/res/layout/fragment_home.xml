@@ -4,28 +4,35 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@drawable/fondo_home"
     android:layout_height="match_parent">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="center"
+        android:background="@color/trasparente_dark"
         android:orientation="vertical">
 
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="15dp">
+            app:cardBackgroundColor="#CDF0EDED"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="15dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true">
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="15dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
                 android:orientation="vertical">
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:layout_weight="1"
                     android:orientation="horizontal">
 
                     <ImageView
@@ -55,6 +62,7 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:layout_weight="1"
                     android:orientation="horizontal">
 
                     <Button
@@ -63,16 +71,19 @@
                         android:layout_height="wrap_content"
                         android:layout_margin="2dp"
                         android:layout_weight="1"
+                        android:drawableLeft="@drawable/ic_clean"
                         android:background="@drawable/rounded_button_gray"
                         android:text="@string/clear"
                         android:textAllCaps="false" />
 
                     <Button
                         android:id="@+id/btn_consultar"
+                        style="@android:style/Widget.Button"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="2dp"
                         android:layout_weight="1"
+                        android:drawableLeft="@drawable/ic_research"
                         android:background="@drawable/rounded_button_green"
                         android:text="@string/consult"
                         android:textAllCaps="false"

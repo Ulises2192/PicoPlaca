@@ -27,16 +27,14 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
     private Button btnConsultar, btnClear;
     private EditText numberPlaca;
 
-
-
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         final View view = inflater.inflate(R.layout.fragment_home, null);
-
         btnConsultar = (Button) view.findViewById(R.id.btn_consultar);
         btnClear = (Button) view.findViewById(R.id.btn_clear);
         numberPlaca = (EditText) view.findViewById(R.id.edit_placa);
         btnConsultar.setOnClickListener(this);
         btnClear.setOnClickListener(this);
+
 
         return view;
     }
